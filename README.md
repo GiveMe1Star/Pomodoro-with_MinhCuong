@@ -11,7 +11,7 @@ A beautifully designed web application to help you work and study more effective
   * **Integrated Music Player:** Choose from built-in ambient tracks like Lo-Fi or rain sounds, or add a custom audio URL to create the perfect focus environment.
   * **Theme Customization:** Personalize your experience with multiple color themes, including Pastel, Dark, Ocean, and Forest.
   * **Motivational Quotes:** Get a daily dose of inspiration with randomly displayed motivational quotes.
-  * <img width="1306" height="799" alt="image" src="https://github.com/user-attachments/assets/0194f064-519f-4d83-8102-799bf518b557" />
+<img width="1306" height="799" alt="image" src="https://github.com/user-attachments/assets/0194f064-519f-4d83-8102-799bf518b557" />
 <img width="1290" height="780" alt="image" src="https://github.com/user-attachments/assets/ef02921d-3877-48ff-bbb0-64c07f3b67e3" />
 
 
