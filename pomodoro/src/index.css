@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 340 100% 97%;
+    --foreground: 340 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 10% 10%;
+
+    --primary: 340 82% 67%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 60% 75%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 340 30% 95%;
+    --muted-foreground: 340 10% 45%;
+
+    --accent: 200 70% 70%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 20% 88%;
+    --input: 340 20% 88%;
+    --ring: 340 82% 67%;
+
+    --timer-ring: 340 82% 67%;
+    --timer-bg: 0 0% 100%;
+    --timer-text: 340 10% 10%;
+    
+    --gradient-start: 340 82% 67%;
+    --gradient-end: 280 60% 75%;
+
+    --radius: 1rem;
+  }
+
+  .theme-dark {
+    --background: 220 30% 10%;
+    --foreground: 220 10% 95%;
+
+    --card: 220 25% 15%;
+    --card-foreground: 220 10% 95%;
+
+    --popover: 220 25% 15%;
+    --popover-foreground: 220 10% 95%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 50% 30%;
+    --secondary-foreground: 220 10% 95%;
+
+    --muted: 220 25% 20%;
+    --muted-foreground: 220 10% 65%;
+
+    --accent: 200 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 25%;
+    --input: 220 20% 25%;
+    --ring: 217 91% 60%;
+
+    --timer-ring: 217 91% 60%;
+    --timer-bg: 220 25% 15%;
+    --timer-text: 220 10% 95%;
+    
+    --gradient-start: 217 91% 60%;
+    --gradient-end: 200 80% 55%;
+  }
+
+  .theme-ocean {
+    --background: 190 80% 95%;
+    --foreground: 190 50% 15%;
+
+    --card: 190 60% 98%;
+    --card-foreground: 190 50% 15%;
+
+    --popover: 190 60% 98%;
+    --popover-foreground: 190 50% 15%;
+
+    --primary: 180 70% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 190 60% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 190 40% 90%;
+    --muted-foreground: 190 30% 40%;
+
+    --accent: 200 80% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 190 30% 85%;
+    --input: 190 30% 85%;
+    --ring: 180 70% 45%;
+
+    --timer-ring: 180 70% 45%;
+    --timer-bg: 190 60% 98%;
+    --timer-text: 190 50% 15%;
+    
+    --gradient-start: 180 70% 45%;
+    --gradient-end: 200 80% 50%;
+  }
+
+  .theme-forest {
+    --background: 120 40% 95%;
+    --foreground: 120 30% 20%;
+
+    --card: 120 30% 98%;
+    --card-foreground: 120 30% 20%;
+
+    --popover: 120 30% 98%;
+    --popover-foreground: 120 30% 20%;
+
+    --primary: 140 50% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 100 40% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 120 25% 90%;
+    --muted-foreground: 120 20% 40%;
+
+    --accent: 80 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 120 20% 85%;
+    --input: 120 20% 85%;
+    --ring: 140 50% 45%;
+
+    --timer-ring: 140 50% 45%;
+    --timer-bg: 120 30% 98%;
+    --timer-text: 120 30% 20%;
+    
+    --gradient-start: 140 50% 45%;
+    --gradient-end: 100 40% 60%;
+  }
+
+  .theme-minimal {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 0% 30%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 20%;
+
+    --timer-ring: 0 0% 20%;
+    --timer-bg: 0 0% 98%;
+    --timer-text: 0 0% 10%;
+    
+    --gradient-start: 0 0% 20%;
+    --gradient-end: 0 0% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
